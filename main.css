@@ -1,0 +1,44 @@
+	
+		html {
+			text-align: center;
+			color: #000000;
+			font-family: 'ABeeZee',Helvetica, sans-serif;
+		}
+		
+		@font-face {
+			font-family: 'ABeeZee';
+			src: url('fonts/ABeeZee-Regular.otf') format('opentype'),
+				 url('abeezee-regular-webfont.woff2') format('woff2'),
+				 url('abeezee-regular-webfont.woff') format('woff');
+			font-weight: normal;
+			font-style: normal;
+		}
+		
+		h1{
+			margin-top: 20px;
+			font-size: 500%;
+		}
+		
+		.fa {
+			padding: 10px;
+			font-size: 20px;
+			width: 20px;
+			text-align: center;
+			text-decoration: none;
+			border-radius: 90%;
+			margin: 5px 2px;
+		}
+
+		.fa:hover {
+			opacity: 0.7;
+		}
+			
+		.fa-github {
+			background: #000000;
+			color:white;
+		}
+
+		.fa-linkedin {
+			background: #007bb5;
+			color: white;
+		}
