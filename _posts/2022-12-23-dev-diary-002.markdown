@@ -1,0 +1,19 @@
+---
+layout: post
+title: "Dev Diary #002"
+date: 2022-12-23 23:59:59 +0000
+categories: dev diary
+---
+Continuing to look at OAuth2.0 documentation  
+
+The start of the process on client side:  
+1. Generate a code verifier, which is a string of alphanumeric characters  
+2. Hash this and it becomes the code challenge. Then SHA-256 and base64 URL encode the resulting hash.
+
+If the code challenge method is "plain", the code challenge is the same as the code verifier (an important detail that I only found out through an obscure blog post :'))
+
+Found out that MAL doesn't require PKCE for accessing public data (i.e. not user info)  
+Need to register API on MAL profile first to get a client ID for accessing API  
+This client ID is embedded as a header field, not in params. Headers = metadata I guess
+
+Got a 200 response from MAL, good news!

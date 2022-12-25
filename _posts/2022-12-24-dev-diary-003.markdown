@@ -1,0 +1,19 @@
+---
+layout: post
+title: "Dev Diary #003"
+date: 2022-12-24 23:59:59 +0000
+categories: dev diary
+---
+Got a repo created for this project  
+
+Expanding the program to get user inputs  
+Another thought: the bot could integrate with an MAL account and automatically pull animes that the user is watching  
+
+Used datetime module to grab the current date  
+MAL API provides the air date and time of the show  
+
+Thought I could get the bot to ping a message on discord if the initial air date + current episode x weeks = today  
+Annoyingly, MAL doesn't update episode counts for airing shows. E.g. One Piece is at an episode count of 0  
+So I need to use the airing status of the show and print a reminder if the current day of the week is the same as the air day (which is conveniently available on MAL)  
+
+Need to convert times from Japan to local; pytz appears to be a module that can help with this.

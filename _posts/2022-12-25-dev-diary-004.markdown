@@ -1,0 +1,14 @@
+---
+layout: post
+title: "Dev Diary #004"
+date: 2022-12-25 23:59:59 +0000
+categories: dev diary
+---
+Set up this blog!  
+
+Followed a great tutorial to set it up https://tseknet.com/blog/startblogging  
+One of rare tutorials I've followed where every step went smoothly
+
+I've done a Ruby course on codecademy recently so Jekyll seemed ideal
+
+I think the No Zero Days, promoted by Shawn swyx Wang, is a great concept. Publically documenting the progress I make can only be a good thing IMO.
