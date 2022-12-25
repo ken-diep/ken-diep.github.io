@@ -1,0 +1,13 @@
+---
+layout: post
+title: "Dev Diary #001"
+date: 2022-12-22 23:59:59 +0000
+categories: dev diary
+---
+I'm trying to create a discord bot that will remind me when the anime I'm tracking is airing
+
+went down a rabbit hole of virtual environments whilst trying to install pycurl
+gave up and decided to use requests instead; there's supposedly a hit in performance but that doesn't really matter
+
+looked at MyAnimeList API documentation
+hard to make sense of OAuth2.0 and PKCE
