@@ -1,4 +1,0 @@
-# Ken's Room
-
-## Posts
-- [Test](http://localhost:1313/posts/test/)
